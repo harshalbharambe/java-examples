@@ -1,0 +1,9 @@
+List<Object> resultList;
+
+for(Object record : resultList) {
+	Object[] values = (Object[]) record;
+	for(Object value : values) {
+		System.out.println("value: "+value);
+	}
+	
+}
